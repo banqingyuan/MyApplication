@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:ignore="NamespaceTypo">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/inputViewHight"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="@dimen/marginSize"
+        android:paddingRight="@dimen/marginSize">
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/phone"/>
+
+        <EditText
+            android:id="@+id/et_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:hint="Phone Number"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"/>
+
+    </LinearLayout>
+    <View style="@style/line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/inputViewHight"
+        android:paddingLeft="@dimen/marginSize"
+
+        android:paddingRight="@dimen/marginSize">
+
+        <ImageView
+            android:id="@+id/iv_key_icon"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:src="@drawable/key"/>
+
+        <EditText
+            android:id="@+id/et_key"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:background="@null"
+            android:hint="Password"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"/>
+
+
+    </LinearLayout>
+    <View
+        style="@style/line"/>
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="立即注册"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text="登陆"
+        android:textSize="25sp"
+        android:background="@drawable/border_line_while"
+        android:layout_marginTop="@dimen/marginSize"
+
+        android:layout_gravity="center_horizontal"/>
+
+
+
+</LinearLayout>

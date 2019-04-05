@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/tool_bar"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+    android:id="@+id/Photo"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_gravity="center_vertical|start"
+    android:layout_marginStart="@dimen/marginSize"
+    android:layout_marginEnd="@dimen/marginSize"
+    android:src="@drawable/photo" />
+    <TextView
+    android:id="@+id/Title"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:textSize="@dimen/titleSize"
+    android:paddingTop="15dp"
+    android:textColor="@android:color/background_light"
+    android:text="Title"/>
+
+    <ImageView
+    android:id="@+id/add"
+    android:src="@drawable/add"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:layout_marginStart="@dimen/marginSize"
+    android:layout_marginEnd="@dimen/marginSize"
+    android:layout_gravity="center_vertical|end"/>
+
+
+
+</FrameLayout>

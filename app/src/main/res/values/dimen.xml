@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginSize">16dp</dimen>
+    <dimen name="titleSize">20sp</dimen>
+    <dimen name="inputViewHight">44dp</dimen>
+    <dimen name="Bar_Hight">?actionBarSize</dimen>
+</resources>
